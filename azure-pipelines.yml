@@ -1,15 +1,16 @@
 trigger:
 - master
 
-strategy:
-  matrix:
-    linux:
-      operatingSystem: 'debian-latest'
-    mac:
-      operatingSystem: 'macos-latest'
-pool:
-  vmImage: $(operatingSystem)
-
-steps:
-- script: echo Running on $(operatingSystem)
-  displayName: 'Run a one-line script'
+jobs:
+- job: MatrixedJob
+  strategy:
+    matrix:
+      linux:
+        operatingSystem: 'debian-latest'
+      mac:
+        operatingSystem: 'macos-latest'
+  pool:
+    vmImage: $(operatingSystem)
+  steps:
+    - script: echo Running on $(operatingSystem)
+      displayName: 'Run a one-line script'
