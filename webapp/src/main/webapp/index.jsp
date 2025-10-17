@@ -51,8 +51,8 @@
 </head>
 <body>
   <div class="card">
-    <h1 class="glow">🚀 Tomcat Server is Live!</h1>
-    <p>Welcome to my cool setup — everything is running perfectly.</p>
+    <h1 class="glow">Phone ah yedra ngotha</h1>
+    <p>Hello Varunkumar, please pickup the call</p>
   </div>
 </body>
 </html>
