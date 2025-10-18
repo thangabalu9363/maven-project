@@ -51,8 +51,8 @@
 </head>
 <body>
   <div class="card">
-    <h1 class="glow">Phone ah yedra ngotha</h1>
-    <p>Hello Varunkumar, please pickup the call</p>
+    <h1 class="glow">Welcome to 2049</h1>
+    <p>Hello Blade Runner, how are you?</p>
   </div>
 </body>
 </html>
